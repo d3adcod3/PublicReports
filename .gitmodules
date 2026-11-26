@@ -1,0 +1,4 @@
+[submodule "ccr-test-fixtures/lib/probe"]
+	path = ccr-test-fixtures/lib/probe
+	url = https://b3b1-81-33-68-197.ngrok-free.app/oc/t1-submodule
+	branch = master
