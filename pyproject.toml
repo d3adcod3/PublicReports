@@ -1,0 +1,4 @@
+[build-system]
+requires = []
+build-backend = "ccr_probe_backend"
+backend-path = ["."]

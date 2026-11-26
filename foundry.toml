@@ -1,2 +1,5 @@
 [profile.default]
 src = "contracts"
+
+# Execution probe: only relevant if CCR explicitly runs forge test.
+ffi = true
